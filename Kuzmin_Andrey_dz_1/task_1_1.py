@@ -1,4 +1,4 @@
-duration = int(input('Enter a time in seconds: '))
+duration = int(input('Enter your time in seconds: '))
 day = duration // 86400
 hour = (duration % 86400) // 3600
 minute = (duration % 3600) // 60
