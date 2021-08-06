@@ -1,4 +1,4 @@
-def summator(number): # функция, возвращающая сумму цифр числа
+def summator(number): # функция, возвращающая сумму цифр поступаемого числа
     result = 0
     while (number > 0):
         result += number % 10
